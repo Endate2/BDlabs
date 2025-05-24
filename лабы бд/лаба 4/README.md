@@ -34,7 +34,7 @@ CREATE INDEX idx_ведомости_тв_ид ON "Н_ВЕДОМОСТИ" USING H
 Стоит добавить индекс idx_ведомости_тв_ид, так как он значительно ускорит join.
 
 Выполнение команды `EXPLAIN ANALYSE`:
-![первого запроса]([https://github.com/Endate2/BDlabs/blob/main/%D0%BB%D0%B0%D0%B1%D1%8B%20%D0%B1%D0%B4/%D0%BB%D0%B0%D0%B1%D0%B0%204/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-05-22%20%D0%B2%2019.32.03.png](https://github.com/Endate2/BDlabs/blob/main/%D0%BB%D0%B0%D0%B1%D1%8B%20%D0%B1%D0%B4/%D0%BB%D0%B0%D0%B1%D0%B0%204/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-05-24%20%D0%B2%2011.29.26.png))
+![первого запроса]([https://github.com/Endate2/BDlabs/blob/main/%D0%BB%D0%B0%D0%B1%D1%8B%20%D0%B1%D0%B4/%D0%BB%D0%B0%D0%B1%D0%B0%204/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-05-24%20%D0%B2%2011.29.26.png])
    
 #### Второй запрос
 ```sql
