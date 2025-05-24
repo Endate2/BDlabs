@@ -57,9 +57,9 @@ WHERE
     AND Н_УЧЕНИКИ.ИД > 100410;
 ```
 Первый вавриант выполнения
-![второго запроса](https://github.com/Endate2/BDlabs/blob/main/%D0%BB%D0%B0%D0%B1%D1%8B%20%D0%B1%D0%B4/%D0%BB%D0%B0%D0%B1%D0%B0%204/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-05-23%20%D0%B2%2012.53.13.png)
+![второго запроса](https://github.com/Endate2/BDlabs/blob/main/%D0%BB%D0%B0%D0%B1%D1%8B%20%D0%B1%D0%B4/%D0%BB%D0%B0%D0%B1%D0%B0%204/%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%202%20%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%201.png)
 Второй вавриант выполнения
-![второго запроса](https://github.com/Endate2/BDlabs/blob/main/%D0%BB%D0%B0%D0%B1%D1%8B%20%D0%B1%D0%B4/%D0%BB%D0%B0%D0%B1%D0%B0%204/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-05-23%20%D0%B2%2012.45.34.png)
+![второго запроса](https://github.com/Endate2/BDlabs/blob/main/%D0%BB%D0%B0%D0%B1%D1%8B%20%D0%B1%D0%B4/%D0%BB%D0%B0%D0%B1%D0%B0%204/%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%202%20%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%202.png)
 
 Первый план точно самый неоптимальный, так как там все сравнения и уменьшения
 выборки происходят после объединений. Во втором мы сразу перед первым Inner join делаем выборку и уменьшаем
