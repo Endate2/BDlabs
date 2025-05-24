@@ -35,7 +35,9 @@ CREATE INDEX idx_ведомости_тв_ид ON "Н_ВЕДОМОСТИ" USING H
 
 Выполнение команды `EXPLAIN ANALYSE`:
 ![первого запроса](https://github.com/Endate2/BDlabs/blob/main/%D0%BB%D0%B0%D0%B1%D1%8B%20%D0%B1%D0%B4/%D0%BB%D0%B0%D0%B1%D0%B0%204/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-05-24%20%D0%B2%2011.29.26.png)
-   
+
+Выполнение команды `EXPLAIN ANALYSE` до индексов:
+![первого запроса](https://github.com/Endate2/BDlabs/blob/main/%D0%BB%D0%B0%D0%B1%D1%8B%20%D0%B1%D0%B4/%D0%BB%D0%B0%D0%B1%D0%B0%204/%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%201%20%D0%B4%D0%BE%20%D0%B8%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%D0%BE%D0%B2.png)
 #### Второй запрос
 ```sql
 
