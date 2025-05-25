@@ -12,9 +12,11 @@ WHERE
     AND Н_ВЕДОМОСТИ.ДАТА > '2010-06-18';
 ```
 
-![первого запроса](https://github.com/Endate2/BDlabs/blob/main/%D0%BB%D0%B0%D0%B1%D1%8B%20%D0%B1%D0%B4/%D0%BB%D0%B0%D0%B1%D0%B0%204/%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%201%20%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%201%3A2.png)
+![первого запроса](https://github.com/Endate2/BDlabs/blob/main/%D0%BB%D0%B0%D0%B1%D1%8B%20%D0%B1%D0%B4/%D0%BB%D0%B0%D0%B1%D0%B0%204/%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%201%20%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%201.png)
 
-![первого запроса](https://github.com/Endate2/BDlabs/blob/main/%D0%BB%D0%B0%D0%B1%D1%8B%20%D0%B1%D0%B4/%D0%BB%D0%B0%D0%B1%D0%B0%204/%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%201%20%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%203.png)
+![первого запроса](https://github.com/Endate2/BDlabs/blob/main/%D0%BB%D0%B0%D0%B1%D1%8B%20%D0%B1%D0%B4/%D0%BB%D0%B0%D0%B1%D0%B0%204/%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%201%20%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%202.png)
+
+![первого запроса](https://github.com/Endate2/BDlabs/blob/main/%D0%BB%D0%B0%D0%B1%D1%8B%20%D0%B1%D0%B4/%D0%BB%D0%B0%D0%B1%D0%B0%204/%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%201%20%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%203%20.png)
 
 Оптимальным выполнением запроса будет второй так как в нем происходит соединение таблиц которые уже прошли условие запроса.
 
