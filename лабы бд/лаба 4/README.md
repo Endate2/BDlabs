@@ -38,8 +38,6 @@ CREATE INDEX idx_ведомости_тв_ид ON "Н_ВЕДОМОСТИ" USING H
 Выполнение команды `EXPLAIN ANALYSE`:
 ![первого запроса](https://github.com/Endate2/BDlabs/blob/main/%D0%BB%D0%B0%D0%B1%D1%8B%20%D0%B1%D0%B4/%D0%BB%D0%B0%D0%B1%D0%B0%204/%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%20explain%201.png)
 
-Выполнение команды `EXPLAIN ANALYSE` до индексов:
-![первого запроса](https://github.com/Endate2/BDlabs/blob/main/%D0%BB%D0%B0%D0%B1%D1%8B%20%D0%B1%D0%B4/%D0%BB%D0%B0%D0%B1%D0%B0%204/%D0%B4%D0%BE%20explain%201.png)
 #### Второй запрос
 ```sql
 
@@ -84,8 +82,6 @@ CREATE INDEX idx_ученики_ид ON Н_УЧЕНИКИ USING btree (ИД);
 основе сравнений, и работает за log(глубина), а обычный поиск за линейное время), так как используется >
 4)Аналагично 3 
 
-Выполнение команды `EXPLAIN ANALYSE` до индексов:
-![Второго запроса](https://github.com/Endate2/BDlabs/blob/main/%D0%BB%D0%B0%D0%B1%D1%8B%20%D0%B1%D0%B4/%D0%BB%D0%B0%D0%B1%D0%B0%204/%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%202%20%D0%B4%D0%BE%20%D0%B8%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%D0%BE%D0%B2.png)
 
 Выполнение команды `EXPLAIN ANALYSE`:
 ![Второго запроса](https://github.com/Endate2/BDlabs/blob/main/%D0%BB%D0%B0%D0%B1%D1%8B%20%D0%B1%D0%B4/%D0%BB%D0%B0%D0%B1%D0%B0%204/%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%202%20%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%20%D0%B8%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%D0%BE%D0%B2%20.png)
